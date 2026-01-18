@@ -1,0 +1,6 @@
+.venv
+catboost_info/
+.DS_Store
+data/
+reports/
+models/
