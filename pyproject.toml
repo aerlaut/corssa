@@ -1,0 +1,18 @@
+[project]
+name = "corssa"
+version = "0.1.0"
+description = "COaRse-grained Secondary Structure Annotation (CORSSA) is a machine learning-based method for predicting the secondary structure of proteins. It uses a combination of sequence and structural features to classify amino acids into three categories: helix, sheet, and coil."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "biopython>=1.86",
+    "catboost>=1.2.8",
+    "pandas>=3.0.0",
+    "scikit-learn>=1.8.0",
+    "scikit-spatial>=9.0.1",
+    "tqdm>=4.67.3",
+]
+
+[build-system]
+requires = ["uv_build>=0.10.0,<0.11.0"]
+build-backend = "uv_build"
