@@ -87,5 +87,5 @@ catboost_info/
 .DS_Store
 
 # Project-specific ignores:
-data/
+data
 reports/

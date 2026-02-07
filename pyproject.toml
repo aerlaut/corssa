@@ -10,6 +10,7 @@ dependencies = [
     "pandas>=3.0.0",
     "scikit-learn>=1.8.0",
     "scikit-spatial>=9.0.1",
+    "seaborn>=0.13.2",
     "tqdm>=4.67.3",
 ]
 
